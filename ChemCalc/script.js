@@ -69,6 +69,8 @@ function mass() {
     }
   }
   ans.innerHTML = sum
+  
+  console.log(sum);
 }
 
 function yeild() {
