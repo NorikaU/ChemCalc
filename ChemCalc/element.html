@@ -1,0 +1,35 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <h1>Chem Calculator</h1>
+    <a href="element.html">Element info</a>
+    <a href="mol.html">Mol calculation</a>
+    <a href="mass.html">Molar mass</a>
+    <a href="yeild.html">Theoretical yeild</a>
+
+    <p>Please type the full name of the element: </p>
+    <input id="element">
+    <button onClick="elem()">info</button>
+    <table style="width:100%">
+      <tr>
+        <th>Symbol</th>
+        <th>Atomic Number</th>
+        <th>Protons</th>
+        <th>Neutrons</th>
+        <th>Electrons</th>
+      </tr>
+      <tr>
+        <td id="symbol"></td>
+        <td id="number"></td>
+        <td id="protons"></td>
+        <td id="neutrons"></td>
+        <td id="electrons"></td>
+      </tr>
+    </table>
+  </body>
+</html>
